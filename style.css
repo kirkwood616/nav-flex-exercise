@@ -1,0 +1,41 @@
+body {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #551a8b;
+  position: fixed;
+  width: 100%;
+  display: flex;
+}
+
+.company-name {
+  height: auto;
+  padding: 15px 20px;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 40px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
